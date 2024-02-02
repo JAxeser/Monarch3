@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="chat-container">
+            <div id="messages"></div>
+            <div id="input-container">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button id="sendButton" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        <div id="post-container">
+            <input type="text" id="postInput" placeholder="Type your post...">
+            <button id="postButton" onclick="postContent()">Post</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

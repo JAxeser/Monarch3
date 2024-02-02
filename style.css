@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-container,
+#post-container {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#messages {
+    height: 200px;
+}
+
+#input-container,
+#post-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#messageInput,
+#postInput {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#sendButton,
+#postButton {
+    padding: 5px;
+}
